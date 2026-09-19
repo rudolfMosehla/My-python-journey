@@ -1,4 +1,4 @@
-# 🐍 My Python Journey: Module 1 Recap
+#  My Python Journey: Module 1 Recap
 
 ## Introduction to Python and Computer Programming
 
@@ -476,7 +476,7 @@ This is the Python 2 style from 1.2.8, and it doesn't work in Python 3. **Fix:**
 3. Remember from 1.1.6 that the real cause can sometimes be **a little earlier** than the reported line
 4. Fix it and run again
 
-Errors aren't failures. They're how Python helps me learn. 🐞
+Errors aren't failures. They're how Python helps me learn. 
 
 ---
 
@@ -499,16 +499,12 @@ Errors aren't failures. They're how Python helps me learn. 🐞
 
 ## 🚀 What's Next
 
-- Module 2: data types, variables, basic input/output, and operators
-- Practise writing small programs every day
-- Get comfortable reading error messages and tracing them back to their real cause
-
----
-
-## 🙌 Reflection
+- Module 2
+  
+## Reflection
 
 This module changed how I see programming. I used to think of computers as "smart," but really they're fast and obedient, and my job as a programmer is to give them clear, correct instructions. Understanding the difference between compiling and interpreting also helps explain *why* Python behaves the way it does.
 
 ---
 
-*Documented as part of my Python learning journey with Team Forge. Feedback and suggestions are welcome! 🌟*
+*Documented as part of my Python learning journey with Team Forge. Feedback and suggestions are welcome!
