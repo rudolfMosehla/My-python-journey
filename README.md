@@ -1,4 +1,4 @@
-# 🐍 My Python Journey: Module 1 Recap
+#  My Python Journey: Module 1 Recap
 
 ## Introduction to Python and Computer Programming
 
@@ -145,7 +145,7 @@ There's no clear winner between compiling and interpreting. Both have advantages
 
 - **Python is an interpreted language**, so it has all the advantages and disadvantages of interpretation, plus a few features of its own.
 - Interpreted languages are often called **scripting languages**, and their programs are called **scripts**.
-- Python was created by **Guido van Rossum** and first released in **1991**. The name comes from the comedy show *Monty Python's Flying Circus*, not the snake 🐍😄
+- Python was created by **Guido van Rossum** and first released in **1991**. The name comes from the comedy show *Monty Python's Flying Circus*, not the snake 🐍
 - Python is popular because it is:
   - **Easy to learn and read**: the code looks close to plain English
   - **Free** and open source
@@ -219,7 +219,7 @@ What's happening here:
 - The text goes inside **parentheses** and **quotation marks**
 - Text inside quotes is called a **string**
 
-### Errors are my friends 🐞
+### Errors are my friends 
 
 Because Python is interpreted, it tells me right away when something is wrong:
 
@@ -246,11 +246,7 @@ Reading the error message, and remembering that the real cause may be a little e
 
 ## 🚀 What's Next
 
-- Module 2: data types, variables, basic input/output, and operators
-- Practise writing small programs every day
-- Get comfortable reading error messages and tracing them back to their real cause
-
----
+- Module 2
 
 ## 🙌 Reflection
 
@@ -258,4 +254,4 @@ This module changed how I see programming. I used to think of computers as "smar
 
 ---
 
-*Documented as part of my Python learning journey with Team Forge. Feedback and suggestions are welcome! 🌟*
+*Documented as part of my Python learning journey with Team Forge. Feedback and suggestions are welcome
