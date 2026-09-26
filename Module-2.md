@@ -2,14 +2,14 @@
 
 ## Data Types, Variables, Basic Input/Output, and Operators
 
-**Team:** Forge 🔥
+**Team:** Forge 
 **Course:** Cisco Networking Academy, Python Essentials 1 (Module 2)
 
 This is my documentation for Module 2, built up section by section as I learned. It covers all six sections: **functions and the print() function**, **literals**, **operators and expressions**, **variables**, **comments**, and **the input() function**.
 
 ---
 
-## 📚 Table of Contents
+##  Table of Contents
 
 - [Section 1: The print() function](#section-1-the-print-function)
   - [What is a function?](#what-is-a-function)
@@ -780,18 +780,10 @@ hellohellohello
 
 ---
 
-## 🚀 What's Next
-
-- Module 3: Boolean values, conditional execution, loops, lists, and logical/bitwise operations
-- Practise writing small programs that combine `input()`, `print()`, variables, and operators
-- Keep testing my code in both the Edube sandbox and IDLE, so I understand how each behaves
-
----
-
-## 🙌 Reflection
+##  Reflection
 
 Module 2 felt like the point where I started actually "talking" to my programs, since `input()` and `print()` let me build something interactive for the first time. The part that surprised me most was that `input()` always returns a string, since it's easy to forget and expect numbers to just work. Learning to read the operator priority table also helped me stop guessing and start reasoning through expressions properly.
 
 ---
 
-*Documented as part of my Python learning journey with Team Forge. Feedback and suggestions are welcome! 🌟*
+*Documented as part of my Python learning journey with Team Forge. Feedback and suggestions are welcome! 
