@@ -34,7 +34,7 @@ Every comparison operator returns a Boolean (`True` or `False`).
 | `>=` | greater than or equal to | `x >= y` → `True` |
 | `<=` | less than or equal to | `x <= y` → `True` |
 
-> ⚠️ **Common bug:** `=` assigns a value, `==` compares two values. `if x = 5:` is a syntax error — you need `if x == 5:`.
+>  **Common bug:** `=` assigns a value, `==` compares two values. `if x = 5:` is a syntax error — you need `if x == 5:`.
 
 ### Conditional statements
 
@@ -89,7 +89,7 @@ else:
         print("Adult")
 ```
 
-> ⚠️ **`input()` always returns a string.** Comparing a string to an int (`"10" < 13`) raises `TypeError`. Convert with `int(input(...))` first.
+>  **`input()` always returns a string.** Comparing a string to an int (`"10" < 13`) raises `TypeError`. Convert with `int(input(...))` first.
 
 ---
 
@@ -284,16 +284,16 @@ print(lst)        # [5, 4, 3, 2, 1]
 - `reverse()` — flips the current order; it does **not** sort.
 - Combine `sort()` then `reverse()` for largest-to-smallest order.
 
-> ⚠️ **Trap:** `sort()` and `reverse()` change the list **in place** and return `None`. Never write `my_list = my_list.sort()` — this overwrites your list with `None`.
+>  **Trap:** `sort()` and `reverse()` change the list **in place** and return `None`. Never write `my_list = my_list.sort()` — this overwrites your list with `None`.
 
 ```python
 names = ["Zara", "Adam", "Mia", "Ben"]
 names = names.sort()
-print(names)   # None  ❌ — the sorted list was thrown away
+print(names)   # None   — the sorted list was thrown away
 
 names = ["Zara", "Adam", "Mia", "Ben"]
 names.sort()
-print(names)   # ['Adam', 'Ben', 'Mia', 'Zara']  ✅
+print(names)   # ['Adam', 'Ben', 'Mia', 'Zara']  
 ```
 
 ---
