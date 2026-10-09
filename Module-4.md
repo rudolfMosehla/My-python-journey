@@ -41,7 +41,7 @@ def message():          # defining the function
 message()               # calling the function
 ```
 
-> ⚠️ **Defining is not calling.** `def` only teaches Python what the function does. Nothing runs until you call it with `message()`. Forgetting the call produces no error and no output.
+>  **Defining is not calling.** `def` only teaches Python what the function does. Nothing runs until you call it with `message()`. Forgetting the call produces no error and no output.
 
 ### A function with one parameter
 
@@ -97,7 +97,7 @@ subtra(5, b=2)      # 3
 subtra(5, 2)        # 3
 ```
 
-> ⚠️ **Positional arguments must come before keyword arguments.** Once you use a keyword argument, every argument after it must also be a keyword argument.
+ **Positional arguments must come before keyword arguments.** Once you use a keyword argument, every argument after it must also be a keyword argument.
 >
 > ```python
 > subtra(a=5, 2)    # SyntaxError
@@ -255,7 +255,7 @@ print(return_var()) # 5
 print(var)          # 5 — the outer variable was permanently changed
 ```
 
-> ⚠️ Use `global` carefully. It lets a function change something outside itself, so its effects are no longer contained in its own return value.
+ Use `global` carefully. It lets a function change something outside itself, so its effects are no longer contained in its own return value.
 
 ---
 
@@ -281,7 +281,7 @@ print(factorial(4))    # 24  (4 * 3 * 2 * 1)
 | Divides a problem into smaller pieces | Recursive calls use a lot of memory |
 | | Can be inefficient |
 
-> ⚠️ **Without a base case**, a recursive function never stops calling itself.
+ **Without a base case**, a recursive function never stops calling itself.
 
 ---
 
@@ -311,7 +311,7 @@ one_elem_tuple_1 = ("one", )     # brackets and a comma
 one_elem_tuple_2 = "one",        # just a comma
 ```
 
-> ⚠️ **The comma makes the tuple.** Without it you get an ordinary value:
+>  **The comma makes the tuple.** Without it you get an ordinary value:
 >
 > ```python
 > my_tuple_1 = 1,
